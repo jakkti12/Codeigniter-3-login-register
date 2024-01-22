@@ -1,0 +1,99 @@
+.btn {
+    margin-right: 50px;
+    border-radius: 8px;
+    height: 35px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    letter-spacing: 1px;
+}
+.top-content{
+	margin-top: -100px;
+}
+.footer {
+    position: fixed;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color: #760687;
+    font-weight: bold;
+    font-family: 'Mitr', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+img {
+    width: 20px;
+    margin-top: -20px;
+
+}
+
+.text1 {
+    font-size: 25px;
+    color: #760687;
+}
+
+.text {
+    color: #92539C;
+}
+
+b {
+    font-size: 20px;
+    color: #760687;
+
+}
+
+p {
+    font-size: 15px;
+    color: #92539C;
+
+}
+
+div.gallery:hover {
+
+    border: 1px solid #ccc;
+
+}
+.coloring{
+	background-color: #760687; 
+	height:100%; 
+	margin-top:20px;
+}
+/* Before logging in */
+.img-content{
+	max-width: 100%;
+	width: 350px;
+	object-fit: cover;
+}
+.font1-content{
+	font-size: clamp(12px , 3.5vw ,20px);
+	color: #000;
+}
+.font2-content{
+	font-size: clamp(10px , 3.5vw ,16px);
+	color: #000;
+}
+@media screen and (max-width:480px){
+	.img-content{
+		max-width: 50%;
+	}
+	.font1-content{
+	margin-left: 20%;
+	}
+	.font2-content{
+	margin-left: 5%;
+	}
+}
+@media screen and (max-width:767.20px){
+	.top-1{
+		margin-top: 10px;
+	}
+	.top-2{
+		margin-top: 30px;
+	}
+	.coloring{
+	background-color: #760687; 
+	height:1800px; 
+	margin-top:20px;
+}
+}
