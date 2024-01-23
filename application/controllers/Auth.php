@@ -10,6 +10,9 @@ class Auth extends CI_Controller
     
     public function edit_profile()
     {
+        if(!$this->session->userdata('email')){
+            redirect('');
+        }
         $id = $this->session->userdata('id');
         $firstname = $this->input->post('firstname');
         $lastname = $this->input->post('lastname');
