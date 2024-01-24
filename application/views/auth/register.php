@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
-</head>
-
-<body>
-  <div class="container">
-    <div class="text-center mt-5 mb-5">
-      <img src="../../../assets/img/logo.png" style="width: 300px;" />
-    </div>
+<div class="container">
+	<div class="text-center pt-5 mb-4">
+  		<img src="/assets/img/logo.png" class="img-logo-register"/>
+	</div>
+<!-- form -->
     <div class="row justify-content-center">
       <div class="col-md-8 col-lg-6">
         <div class="card">
           <div class="card-body">
-            <form>
+            <form action="/auth/register" method="post">
               <div class="row mb-3">
                 <div class="col-xs-12 col-sm-6">
                   <label for="inputFirstname" class="form-label">Firstname</label>
@@ -47,20 +37,16 @@
                 </label>
               </div>
               <div class="text-center">
-                <button type="submit" class="btn btn-primary w-100">
+                <button type="submit" class="btn btn-primary button-register">
                   Confirm
                 </button>
               </div>
-              <div class="text-center mt-3">
-                <a href="#" class="link-dark">Go back to homepage</a>
+              <div class="text-center pt-2">
+                <a href="<?php echo base_url('')?>" class="link-dark">Go back to homepage</a>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="../../../assets/js/bootstrap.bundle.js"></script>
-</body>
-
-</html>
+</div>
