@@ -1,6 +1,6 @@
 <?php
 class Auth_model extends CI_Model
-{
+{ 
     function login($email=null , $password=null)
     {
         if(empty($email) || empty($password)){
@@ -22,6 +22,17 @@ class Auth_model extends CI_Model
             }
         }
         return false;
+    }
+  
+    function logout()
+    {
+        $user_data = array(
+            'email' => '',
+            'password' => '',
+            'status' => '',
+        );
+        $this->session->set_userdata($user_data);
+        return true;
     }
   
     function update_profile($id=null , $firstname=null , $lastname=null)

@@ -40,6 +40,12 @@ class Auth extends CI_Controller
        $this->load->view('auth/login'); 
     }
   
+    public function logout()
+    {
+        $this->auth_model->logout();
+        redirect('');
+    }
+  
     public function index()
     {
         $this->load->view('head');
