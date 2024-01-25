@@ -56,6 +56,9 @@ class Auth extends CI_Controller
   
     public function register()
     {
+        if($this->session->userdata('email')){
+            redirect('');
+        }
         $firstname = $this->input->post('firstname');
         $lastname = $this->input->post('lastname');
         $email = $this->input->post('email');
