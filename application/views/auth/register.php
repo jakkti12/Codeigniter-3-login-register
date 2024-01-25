@@ -67,7 +67,7 @@
                 </button>
               </div>
               <div class="text-center pt-2">
-                <a href="<?php echo base_url('')?>" class="link-dark">Go back to homepage</a>
+                <a href="<?php echo base_url('')?>" class="link-dark homepage-register">Go back to homepage</a>
               </div>
             </form>
           </div>

@@ -40,7 +40,7 @@
             <input type="submit" value="Login" class="btn btn-primary button-login">
           </div>
           <div class="text-center">
-            <a href="<?php echo base_url('')?>" class="link-dark">Go back to homepage</a>
+            <a href="<?php echo base_url('')?>" class="link-dark homepage-register">Go back to homepage</a>
           </div>
         </form>
       </div>
