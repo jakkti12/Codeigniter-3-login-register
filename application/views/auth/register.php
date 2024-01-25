@@ -27,33 +27,33 @@
                   type="text" name="firstname" class="form-control" 
                   id="inputFirstname" aria-describedby="emailHelp" 
                   value="<?php echo set_value('firstname') ?>"/>
-                  <a style="color:red;"><?php echo form_error('firstname');?></a>
+                  <a class="font-error"><?php echo form_error('firstname');?></a>
                 </div>
                 <div class="col-xs-12 col-sm-6">
                   <label for="inputLastname" class="form-label">Lastname</label>
                   <input 
                   type="text" name="lastname" class="form-control" 
                   id="inputLastname" value="<?php echo set_value('lastname') ?>"/>
-                  <a style="color:red;"><?php echo form_error('lastname');?></a>
+                  <a class="font-error"><?php echo form_error('lastname');?></a>
                 </div>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" name="email" class="form-control" 
                 id="email" value="<?php echo set_value('email') ?>"">
-                <a style="color:red;"><?php echo form_error('email');?></a>
+                <a class="font-error"><?php echo form_error('email');?></a>
               </div>
               <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" name="password" class="form-control" 
                 id="password" value="<?php echo set_value('password') ?>">
-                <a style="color:red;"><?php echo form_error('password');?></a>
+                <a class="font-error"><?php echo form_error('password');?></a>
               </div>
               <div class="mb-3">
                 <label for="conf_password" class="form-label">Confirm Password</label>
                 <input type="password" name="conf_password" class="form-control" 
                 id="conf_password" value="<?php echo set_value('conf_password') ?>">
-                <a style="color:red;"><?php echo form_error('conf_password');?></a>
+                <a class="font-error"><?php echo form_error('conf_password');?></a>
               </div>
               <div class="mb-3">
                 <input class="form-check-input" type="checkbox" value="" id="remember">

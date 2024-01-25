@@ -21,7 +21,7 @@
 ?>
 	<div class="card card-change_password">
 		<div class="head-change_password">
-			<h1 class="fonthead-change_password pt-1">Edit profile</h1>
+			<h1 class="fonthead-change_password pt-1">Change your password</h1>
 		</div>
             <form action="" method="post">
             	<div class="card-body body-change_password">
@@ -36,7 +36,7 @@
                     			type="password" 
                     			name="old_password" 
                     			value="">
-                    			<div style="margin-left: 10px;">
+                    			<div class="font-error" style="margin-left: 10px;">
                     				<?php echo form_error('old_password') ?>
                     			</div>
                 		</div>
@@ -52,7 +52,7 @@
                     			type="password" 
                     			name="new_password" 
                     			value="">
-                    			<div style="margin-left: 10px;">
+                    			<div class="font-error" style="margin-left: 10px;">
                     				<?php echo form_error('new_password') ?>
                     			</div>
                 		</div>
@@ -68,7 +68,7 @@
                     			type="password" 
                     			name="conf_password"
                     			value="">
-                    			<div style="margin-left: 10px;">
+                    			<div class="font-error" style="margin-left: 10px;">
                     				<?php echo form_error('conf_password') ?>
                     			</div>
                 		</div>

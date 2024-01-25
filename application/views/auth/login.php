@@ -22,11 +22,12 @@
           <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
             <input type="email" class="form-control" id="email" name="email">
-            <?php echo form_error('email');?>
+            <a class="font-error"><?php echo form_error('firstname');?></a>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password" name="password">
+            <a class="font-error"><?php echo form_error('password');?></a>
           </div>
           <div class="d-flex justify-content-between">
             <div class="col-4 mb-3">
