@@ -4,6 +4,18 @@
 </div>
 <div class="row justify-content-center">
   <div class="col-md-8 col-lg-6">
+  <?php
+    $arr = $this->session->flashdata();
+    if(!empty($arr['fail_message'])){
+        $html = '<div class="alert alert-dismissible fail-change_password" role="alert">';
+        $html .= '<i class="fa-solid fa-triangle-exclamation icon-fail-change_password"></i>';
+        $html .= '<a class="font-success-change_password">';
+        $html .= $arr['fail_message'];
+        $html .= '</a>';
+        $html .= '</div>';
+        echo $html;
+    }
+    ?>
     <div class="card">
       <div class="card-body">
         <form action="/auth/login" method="post">

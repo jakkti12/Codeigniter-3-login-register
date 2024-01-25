@@ -15,8 +15,8 @@ if($this->session->userdata('email')){
             <div class="card-body mt-3">
                 <img src="/assets/img/Bedtime Bear.jpg" alt="" style="width: 100px; border-radius: 5px;">
                 <div class="text-center mt-2">
-                    <b>Bedtime Bear</b>
-                    <p class="mt-2">It's a bear that likes to sleep. Until there was no time to wake up and rest. He is sleepy all the time.</p>
+                    <b class="font-h4">Bedtime Bear</b>
+                    <p class="font-h5">It's a bear that likes to sleep. Until there was no time to wake up and rest. He is sleepy all the time.</p>
                 </div>
             </div>
         </div>
@@ -27,8 +27,8 @@ if($this->session->userdata('email')){
             <div class="card-body mt-3">
                 <img src="/assets/img/Funshine Bear.jpg" alt="" style="width: 100px; border-radius: 5px;">
                 <div class="text-center mt-2">
-                    <b>Funshine Bear</b>
-                    <p class="mt-2">Optimistic, funny, cheerful, has many friends, he is determined and energetic Be determined and confident in yourself.</p>
+                    <b class="font-h4">Funshine Bear</b>
+                    <p class="mt-2 font-h5">Optimistic, funny, cheerful, has many friends, he is determined and energetic Be determined and confident in yourself.</p>
                 </div>
             </div>
         </div>
@@ -39,8 +39,8 @@ if($this->session->userdata('email')){
             <div class="card-body mt-3">
                 <img src="/assets/img/Love A Lot Bear.jpg" alt="" style="width: 100px; border-radius: 5px;">
                 <div class="text-center mt-2">
-                    <b>Love A Lot Bear</b>
-                    <p class="mt-2">He is a generous, enthusiastic person, good at expressing his love, cute and kind She has love all around her. She is a smart bear.</p>
+                    <b class="font-h4">Love A Lot Bear</b>
+                    <p class="mt-2 font-h5">He is a generous, enthusiastic person, good at expressing his love, cute and kind She has love all around her. She is a smart bear.</p>
                 </div>
             </div>
         </div>
@@ -55,8 +55,8 @@ if($this->session->userdata('email')){
             <div class="card-body mt-3">
                 <img src="/assets/img/Tenderheart Bear.jpg" alt="" style="width: 100px; border-radius: 5px;">
                 <div class="text-center mt-2">
-                    <b>Tenderheart Bear</b>
-                    <p class="mt-2">Have leadership Solve problems for everyone sincerely Straightforward personality and methodical</p>
+                    <b class="font-h4">Tenderheart Bear</b>
+                    <p class="mt-2 font-h5">Have leadership Solve problems for everyone sincerely Straightforward personality and methodical</p>
                 </div>
             </div>
         </div>
@@ -67,8 +67,8 @@ if($this->session->userdata('email')){
             <div class="card-body mt-3">
                 <img src="/assets/img/Grumpy Bear.jpg" alt="" style="width: 100px; border-radius: 5px;">
                 <div class="text-center mt-2">
-                    <b>Grumpy Bear</b>
-                    <p class="mt-2">Frankly, he is easily irritated but recovers quickly. He is solemn and somewhat irritable He is also a brilliant inventor.</p>
+                    <b class="font-h4">Grumpy Bear</b>
+                    <p class="mt-2 font-h5">Frankly, he is easily irritated but recovers quickly. He is solemn and somewhat irritable He is also a brilliant inventor.</p>
                 </div>
             </div>
         </div>
@@ -79,8 +79,8 @@ if($this->session->userdata('email')){
             <div class="card-body mt-3">
                 <img src="/assets/img/Good Luck Bear.jpg" alt="" style="width: 100px; border-radius: 5px;">
                     <div class="text-center mt-2">
-                        <b>Good Luck Bear</b>
-                        <p class="mt-2">Always lucky, confident, likes to help and encourage others Plus he also gives good luck to his friends.</p>
+                        <b class="font-h4">Good Luck Bear</b>
+                        <p class="mt-2 font-h5">Always lucky, confident, likes to help and encourage others Plus he also gives good luck to his friends.</p>
                     </div>
                 </div>
             </div>
