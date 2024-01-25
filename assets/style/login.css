@@ -1,0 +1,7 @@
+.img-logo-login{
+	width: clamp(50px, 40%, 200px);
+}
+.button-login{
+	width: 100%;
+	margin-left: 0%;
+}
