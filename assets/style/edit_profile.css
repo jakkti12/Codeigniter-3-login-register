@@ -1,0 +1,151 @@
+.flashdata-edit_profile{
+	margin-top: -10px;
+	font-weight: 500;
+	background-color: #DEFFBD;
+}
+.icon-edit_profile{
+	color: green;
+	font-size: 30px;
+}
+.font-success-edit_profile{
+	text-decoration: none;
+	position: absolute;
+	font-size: clamp(16px , 2vw , 18px);
+	color: #000;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.edit_profile{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.head-edit_profile{
+	background-color: #760687;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin-left: -1.1px;
+	margin-top: -10px;
+	width: 100.3%;
+	height: 60px;
+}
+.body-edit_profile{
+	width: 97%;
+}
+.card-edit_profile{
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.fonthead-edit_profile{
+	margin-left: 20px;
+	margin-top: 5px;
+	font-size: 30px;
+	color: #fff;
+}
+.font-edit_profile{
+	margin-left: 25px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.input1-edit_profile{
+	border: 1px solid #000;
+	margin-left: 25px;
+	margin-right: 25px;
+	max-width: 100%;
+	width: 400px;
+}
+.input2-edit_profile{
+	border: 1px solid #000;
+	margin-left: 25px;
+	margin-right: 25px;
+	max-width: 100%;
+	width: 400px;
+}
+.input3-edit_profile{
+	border: 1px solid #000;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 500px;
+}
+.buttion-edit_profile{
+	height: 50px;
+	font-size: clamp(10px , 1.8vw , 18px);
+	font-weight: 400;
+	margin-left: 78%;
+	margin-top: 80px;
+}
+.back-to-homepage{
+	text-decoration: none;
+	color: #000;
+	font-size: clamp(14px , 2vw , 18px);
+}
+@media screen and (max-width:1285.60px){
+	.buttion-edit_profile{
+	margin-left: 74%;
+	}
+}
+@media screen and (max-width:1180px){
+	.buttion-edit_profile{
+	margin-left: 72%;
+	}
+}
+@media screen and (max-width:1090px){
+	.buttion-edit_profile{
+	margin-left: 70%;
+	}
+}
+@media screen and (max-width:990px){
+	.buttion-edit_profile{
+	margin-left: 68%;
+	}
+}
+@media screen and (max-width:850px){
+	.edit_profile{
+	margin-left: 120px;
+	}
+}
+@media screen and (max-width:767.20px){
+	.input3-edit_profile{
+	border: 1px solid #000;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 400px;
+	}
+	.buttion-edit_profile{
+	margin-left: 65%;
+	}
+}
+@media screen and (max-width:650px){
+	.edit_profile{
+	margin-left: 82px;
+	}
+}
+@media screen and (max-width:600px){
+	.edit_profile{
+	margin-left: 60px;
+	}
+}
+@media screen and (max-width:570px){
+	.edit_profile{
+	margin-left: 50px;
+	}
+}
+@media screen and (max-width:550px){
+	.edit_profile{
+	margin-left: 40px;
+	}
+}
+@media screen and (max-width:530px){
+	.edit_profile{
+	margin-left: 20px;
+	}
+}
+@media screen and (max-width:500px){
+	.edit_profile{
+	width: 90%;
+	}
+	.input3-edit_profile{
+	width: 91%;
+	}
+}
