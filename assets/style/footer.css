@@ -1,0 +1,30 @@
+.footer-1 {
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color: #760687;
+    font-weight: bold;
+    font-family: 'Mitr', sans-serif;
+    margin-top: 100px;
+    z-index: 2;
+}
+ 
+.img-footer{
+    width: clamp(15px , 2.5vw , 20px);
+    margin-top: -20px;
+    margin-left: 5px;
+   
+}
+.font1-footer{
+	font-size: clamp(12px , 2.5vw , 20px);
+}
+.font2-footer{
+	font-size: clamp(8px , 2.5vw , 16px);
+}
+@media screen and (max-width:767.20px){
+	.footer-1{
+		margin-top:10px;
+	}
+}

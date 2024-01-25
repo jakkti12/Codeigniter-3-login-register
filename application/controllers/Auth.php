@@ -4,8 +4,27 @@ class Auth extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        
         $this->load->model('auth_model');
+    }
+  
+    public function index()
+    {
+        $this->load->view('head');
+        $this->load->view('nav');
+        $this->load->view('content');
+        $this->load->view('footer');
+    }
+    
+    public function login()
+    {
+       $this->load->view('head');
+       $this->load->view('auth/login'); 
+    }
+    
+    public function register()
+    {
+        $this->load->view('head');
+        $this->load->view('auth/register');
     }
     
     public function edit_profile()
@@ -32,6 +51,5 @@ class Auth extends CI_Controller
         $this->load->view('head');
         $this->load->view('nav');
         $this->load->view('auth/edit_profile',$user_info);
-        
     }
 }
