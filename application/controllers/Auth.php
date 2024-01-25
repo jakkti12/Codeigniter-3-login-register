@@ -9,6 +9,9 @@ class Auth extends CI_Controller
   
     public function login()
     {
+       if($this->session->userdata('email')){
+           redirect('');
+       }
        $email = $this->input->post('email');
        $password = $this->input->post('password');
        
