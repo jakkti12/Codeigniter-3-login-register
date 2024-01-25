@@ -26,7 +26,7 @@
                 			class="input1-edit_profile form-control" 
                 			type="text" 
                 			name="firstname" 
-                			value="firstname"
+                			value="<?php echo $user_info['firstname'];?>"
                 		>
                 		<a class="font-error"><?php echo form_error('firstname');?></a>
             		</div>
@@ -40,7 +40,7 @@
                 			class="input2-edit_profile form-control" 
                 			type="text" 
                 			name="lastname" 
-                			value="lastname"
+                			value="<?php echo $user_info['lastname'];?>"
                 		>
                 		<a class="font-error"><?php echo form_error('lastname');?></a>
                 		<!-- end lastname -->
@@ -56,7 +56,7 @@
                 			class="input3-edit_profile form-control" 
                 			type="email" 
                 			name="email" 
-                			value="email$gmail.com" 
+                			value="<?php echo $user_info['email'];?>" 
                 			disabled
                 		>
                 		<a class="font-error"><?php echo form_error('email');?></a>
