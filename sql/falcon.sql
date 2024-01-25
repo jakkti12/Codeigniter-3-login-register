@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jan 08, 2024 at 07:48 AM
+-- Generation Time: Jan 25, 2024 at 09:17 AM
 -- Server version: 8.2.0
 -- PHP Version: 7.4.33
 
@@ -18,31 +18,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `priauu`
+-- Database: `falcon_test`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `settings`
---
-
-DROP TABLE IF EXISTS `settings`;
-CREATE TABLE IF NOT EXISTS `settings` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `site_title` varchar(50) NOT NULL,
-  `timezone` varchar(100) NOT NULL,
-  `recaptcha` varchar(5) NOT NULL,
-  `theme` varchar(100) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `settings`
---
-
-INSERT INTO `settings` (`id`, `site_title`, `timezone`, `recaptcha`, `theme`) VALUES
-(1, 'Dnato System Login', 'Asia/Makassar', 'no', 'https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css');
 
 -- --------------------------------------------------------
 
@@ -61,7 +38,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `banned_users` varchar(100) NOT NULL,
   `role` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb3;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `status`, `banned_users`, `role`) VALUES
+(1, 'Admin', 'Admin', 'Admin@gmail.com', 'e5c9bf3461a6a1ac54c954d667e20a2e', '1', 'unban', '1');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
