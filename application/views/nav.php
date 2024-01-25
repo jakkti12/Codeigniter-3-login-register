@@ -54,7 +54,7 @@
     			</div>
     			<div class="col-md-1">
     				<li class="nav-item">
-          				<a class="nav-link register" href="<?php echo base_url('auth/login')?>">Register</a>
+          				<a class="nav-link register" href="<?php echo base_url('auth/register')?>">Register</a>
         			</li>
     			</div>
       		</ul>
