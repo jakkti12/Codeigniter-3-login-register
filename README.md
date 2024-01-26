@@ -3,6 +3,7 @@
 เครื่องมือในการพัฒนา
 
 - Edlipse IDE
+- Mamp ( สำหรับ Max)
 - Wamp ( สำหรับ Windows)
 
 System Requirements
