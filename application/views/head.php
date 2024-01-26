@@ -15,5 +15,5 @@
     <link rel="stylesheet" href="/assets/style//login.css">
     <link rel="stylesheet" href="/assets/style/footer.css">
     <link rel="stylesheet" href="/assets/style//edit_profile.css">
-    <link rel="stylesheet" href="/assets/style/change_password">
+    <link rel="stylesheet" href="/assets/style//change_password">
 </head>
