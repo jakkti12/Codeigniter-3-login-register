@@ -120,7 +120,9 @@ class Auth extends CI_Controller
   
      public function change_password()
      {
-        $this->load->model('auth_model');
+         if(!$this->session->userdata('email')){
+             redirect('');
+         }
         
         $id = $this->session->userdata('id');
         $old_password = $this->input->post('old_password');
